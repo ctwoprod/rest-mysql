@@ -1,0 +1,15 @@
+package org.rf.dao;
+
+import org.rf.entities.UserLog;
+import org.springframework.data.repository.PagingAndSortingRepository;
+import org.springframework.stereotype.Repository;
+
+/**
+ * 
+ * @author ditlahta-03
+ */
+@Repository("UserLogDao")
+public interface UserLogDao extends
+		PagingAndSortingRepository<UserLog, String> {
+
+}
