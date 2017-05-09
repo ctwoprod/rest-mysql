@@ -1,0 +1,6 @@
+To do:
+
+Full REST example
+HikariCP
+Unit & Integration test
+Refactoring
